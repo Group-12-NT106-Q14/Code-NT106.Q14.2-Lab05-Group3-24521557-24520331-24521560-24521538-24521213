@@ -43,9 +43,10 @@
             label1.AutoSize = true;
             label1.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Navy;
-            label1.Location = new Point(133, 57);
+            label1.Location = new Point(166, 71);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(331, 35);
+            label1.Size = new Size(400, 43);
             label1.TabIndex = 15;
             label1.Text = "Nhóm 3 - NT106.Q14.2";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -55,10 +56,10 @@
             btnBai06.BackColor = Color.LightBlue;
             btnBai06.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnBai06.ForeColor = Color.White;
-            btnBai06.Location = new Point(427, 235);
-            btnBai06.Margin = new Padding(3, 4, 3, 4);
+            btnBai06.Location = new Point(534, 294);
+            btnBai06.Margin = new Padding(4, 5, 4, 5);
             btnBai06.Name = "btnBai06";
-            btnBai06.Size = new Size(150, 75);
+            btnBai06.Size = new Size(188, 94);
             btnBai06.TabIndex = 14;
             btnBai06.Text = "Bài 06";
             btnBai06.UseVisualStyleBackColor = false;
@@ -68,10 +69,10 @@
             btnBai05.BackColor = Color.LightBlue;
             btnBai05.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnBai05.ForeColor = Color.White;
-            btnBai05.Location = new Point(227, 235);
-            btnBai05.Margin = new Padding(3, 4, 3, 4);
+            btnBai05.Location = new Point(284, 294);
+            btnBai05.Margin = new Padding(4, 5, 4, 5);
             btnBai05.Name = "btnBai05";
-            btnBai05.Size = new Size(150, 75);
+            btnBai05.Size = new Size(188, 94);
             btnBai05.TabIndex = 13;
             btnBai05.Text = "Bài 05";
             btnBai05.UseVisualStyleBackColor = false;
@@ -81,10 +82,10 @@
             btnBai04.BackColor = Color.LightBlue;
             btnBai04.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnBai04.ForeColor = Color.White;
-            btnBai04.Location = new Point(27, 235);
-            btnBai04.Margin = new Padding(3, 4, 3, 4);
+            btnBai04.Location = new Point(34, 294);
+            btnBai04.Margin = new Padding(4, 5, 4, 5);
             btnBai04.Name = "btnBai04";
-            btnBai04.Size = new Size(150, 75);
+            btnBai04.Size = new Size(188, 94);
             btnBai04.TabIndex = 12;
             btnBai04.Text = "Bài 04";
             btnBai04.UseVisualStyleBackColor = false;
@@ -94,23 +95,24 @@
             btnBai03.BackColor = Color.LightBlue;
             btnBai03.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnBai03.ForeColor = Color.White;
-            btnBai03.Location = new Point(427, 110);
-            btnBai03.Margin = new Padding(3, 4, 3, 4);
+            btnBai03.Location = new Point(534, 138);
+            btnBai03.Margin = new Padding(4, 5, 4, 5);
             btnBai03.Name = "btnBai03";
-            btnBai03.Size = new Size(150, 75);
+            btnBai03.Size = new Size(188, 94);
             btnBai03.TabIndex = 11;
             btnBai03.Text = "Bài 03";
             btnBai03.UseVisualStyleBackColor = false;
+            btnBai03.Click += btnBai03_Click;
             // 
             // btnBai02
             // 
             btnBai02.BackColor = Color.LightBlue;
             btnBai02.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnBai02.ForeColor = Color.White;
-            btnBai02.Location = new Point(227, 110);
-            btnBai02.Margin = new Padding(3, 4, 3, 4);
+            btnBai02.Location = new Point(284, 138);
+            btnBai02.Margin = new Padding(4, 5, 4, 5);
             btnBai02.Name = "btnBai02";
-            btnBai02.Size = new Size(150, 75);
+            btnBai02.Size = new Size(188, 94);
             btnBai02.TabIndex = 10;
             btnBai02.Text = "Bài 02";
             btnBai02.UseVisualStyleBackColor = false;
@@ -120,10 +122,10 @@
             btnBai01.BackColor = Color.LightBlue;
             btnBai01.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnBai01.ForeColor = Color.White;
-            btnBai01.Location = new Point(27, 110);
-            btnBai01.Margin = new Padding(3, 4, 3, 4);
+            btnBai01.Location = new Point(34, 138);
+            btnBai01.Margin = new Padding(4, 5, 4, 5);
             btnBai01.Name = "btnBai01";
-            btnBai01.Size = new Size(150, 75);
+            btnBai01.Size = new Size(188, 94);
             btnBai01.TabIndex = 9;
             btnBai01.Text = "Bài 01";
             btnBai01.UseVisualStyleBackColor = false;
@@ -134,18 +136,19 @@
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Arial", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTitle.ForeColor = Color.Navy;
-            lblTitle.Location = new Point(47, 9);
+            lblTitle.Location = new Point(59, 11);
+            lblTitle.Margin = new Padding(4, 0, 4, 0);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(511, 35);
+            lblTitle.Size = new Size(612, 43);
             lblTitle.TabIndex = 8;
             lblTitle.Text = "Lab 05 - Gửi và Nhận Mail trong C#";
             lblTitle.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // dashboard
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(613, 387);
+            ClientSize = new Size(766, 484);
             Controls.Add(label1);
             Controls.Add(btnBai06);
             Controls.Add(btnBai05);
@@ -154,6 +157,7 @@
             Controls.Add(btnBai02);
             Controls.Add(btnBai01);
             Controls.Add(lblTitle);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "dashboard";
             Text = "Form1";
             ResumeLayout(false);
