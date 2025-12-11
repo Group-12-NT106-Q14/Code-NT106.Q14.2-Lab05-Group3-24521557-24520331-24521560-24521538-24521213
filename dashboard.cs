@@ -14,5 +14,13 @@
             bai01.ShowDialog();
             this.Show();
         }
+
+        private void btnBai02_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bai02 bai02 = new Bai02();
+            bai02.ShowDialog(); 
+            this.Show();
+        }
     }
 }

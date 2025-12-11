@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b91410758f7e992fc3f9c17adf82b9ba84ad3da6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213")]
