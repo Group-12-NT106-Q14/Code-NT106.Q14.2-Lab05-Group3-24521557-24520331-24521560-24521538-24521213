@@ -31,6 +31,9 @@
             txtUserName = new TextBox();
             txtPassWord = new TextBox();
             lstEmail = new ListView();
+            clEmail = new ColumnHeader();
+            clForm = new ColumnHeader();
+            clTime = new ColumnHeader();
             lbEmail = new Label();
             lbPassword = new Label();
             lbTotal = new Label();
@@ -38,9 +41,6 @@
             btnLogin = new Button();
             txtToTal = new TextBox();
             txtRecent = new TextBox();
-            clEmail = new ColumnHeader();
-            clForm = new ColumnHeader();
-            clTime = new ColumnHeader();
             SuspendLayout();
             // 
             // txtUserName
@@ -68,6 +68,22 @@
             lstEmail.TabIndex = 2;
             lstEmail.UseCompatibleStateImageBehavior = false;
             lstEmail.View = View.Details;
+            lstEmail.SelectedIndexChanged += lstEmail_SelectedIndexChanged;
+            // 
+            // clEmail
+            // 
+            clEmail.Text = "Email";
+            clEmail.Width = 240;
+            // 
+            // clForm
+            // 
+            clForm.Text = "Form";
+            clForm.Width = 240;
+            // 
+            // clTime
+            // 
+            clTime.Text = "Time";
+            clTime.Width = 240;
             // 
             // lbEmail
             // 
@@ -133,21 +149,6 @@
             txtRecent.ReadOnly = true;
             txtRecent.Size = new Size(78, 27);
             txtRecent.TabIndex = 9;
-            // 
-            // clEmail
-            // 
-            clEmail.Text = "Email";
-            clEmail.Width = 240;
-            // 
-            // clForm
-            // 
-            clForm.Text = "Form";
-            clForm.Width = 240;
-            // 
-            // clTime
-            // 
-            clTime.Text = "Time";
-            clTime.Width = 240;
             // 
             // Bai02
             // 
