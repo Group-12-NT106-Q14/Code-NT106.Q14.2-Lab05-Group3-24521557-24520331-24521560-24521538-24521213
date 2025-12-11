@@ -15,11 +15,19 @@
             this.Show();
         }
 
+<<<<<<< HEAD
         private void btnBai03_Click(object sender, EventArgs e)
         {
             this.Hide();
             Bai3 bai3 = new Bai3();
             bai3.ShowDialog();
+=======
+        private void btnBai02_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bai02 bai02 = new Bai02();
+            bai02.ShowDialog(); 
+>>>>>>> 393c1f3e89c448e407f14392256ff243ee99bfaa
             this.Show();
         }
     }

@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\csdl\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "D:\\csdl\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213.csproj",
         "packagesPath": "C:\\Users\\TRAN VAN TAI\\.nuget\\packages\\",
         "outputPath": "D:\\csdl\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\obj\\",
+=======
+    "D:\\doan\\LAB5-laptrinhmang\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213.csproj": {}
+  },
+  "projects": {
+    "D:\\doan\\LAB5-laptrinhmang\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\doan\\LAB5-laptrinhmang\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213.csproj",
+        "projectName": "Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213",
+        "projectPath": "D:\\doan\\LAB5-laptrinhmang\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213.csproj",
+        "packagesPath": "C:\\Users\\HI PC\\.nuget\\packages\\",
+        "outputPath": "D:\\doan\\LAB5-laptrinhmang\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\obj\\",
+>>>>>>> 393c1f3e89c448e407f14392256ff243ee99bfaa
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\TRAN VAN TAI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\HI PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 393c1f3e89c448e407f14392256ff243ee99bfaa
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -74,7 +92,11 @@
               "privateAssets": "none"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 393c1f3e89c448e407f14392256ff243ee99bfaa
         }
       }
     }

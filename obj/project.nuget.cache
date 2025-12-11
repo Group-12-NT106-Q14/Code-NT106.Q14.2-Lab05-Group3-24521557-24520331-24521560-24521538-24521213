@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "kqTL6YdXrOI=",
   "success": true,
   "projectFilePath": "D:\\csdl\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213.csproj",
@@ -9,6 +10,17 @@
     "C:\\Users\\TRAN VAN TAI\\.nuget\\packages\\mimekit\\4.14.0\\mimekit.4.14.0.nupkg.sha512",
     "C:\\Users\\TRAN VAN TAI\\.nuget\\packages\\system.formats.asn1\\8.0.1\\system.formats.asn1.8.0.1.nupkg.sha512",
     "C:\\Users\\TRAN VAN TAI\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
+=======
+  "dgSpecHash": "qzGWKyGDJ5U=",
+  "success": true,
+  "projectFilePath": "D:\\doan\\LAB5-laptrinhmang\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HI PC\\.nuget\\packages\\bouncycastle.cryptography\\2.6.1\\bouncycastle.cryptography.2.6.1.nupkg.sha512",
+    "C:\\Users\\HI PC\\.nuget\\packages\\mailkit\\4.14.1\\mailkit.4.14.1.nupkg.sha512",
+    "C:\\Users\\HI PC\\.nuget\\packages\\mimekit\\4.14.0\\mimekit.4.14.0.nupkg.sha512",
+    "C:\\Users\\HI PC\\.nuget\\packages\\system.formats.asn1\\8.0.1\\system.formats.asn1.8.0.1.nupkg.sha512",
+    "C:\\Users\\HI PC\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
+>>>>>>> 393c1f3e89c448e407f14392256ff243ee99bfaa
   ],
   "logs": []
 }
