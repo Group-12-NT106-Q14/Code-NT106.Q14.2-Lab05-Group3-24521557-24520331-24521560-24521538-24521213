@@ -1,4 +1,6 @@
-﻿namespace Code_NT106.Q14._2_Lab05_Group3_24521557_24520331_24521560_24521538_24521213
+using System.Runtime.Intrinsics.X86;
+
+namespace Code_NT106.Q14._2_Lab05_Group3_24521557_24520331_24521560_24521538_24521213
 {
     public partial class dashboard : Form
     {
@@ -15,19 +17,19 @@
             this.Show();
         }
 
-<<<<<<< HEAD
+        private void btnBai02_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bai02 bai02 = new Bai02();
+            bai02.ShowDialog();
+            this.Show();
+        }
+
         private void btnBai03_Click(object sender, EventArgs e)
         {
             this.Hide();
             Bai3 bai3 = new Bai3();
             bai3.ShowDialog();
-=======
-        private void btnBai02_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Bai02 bai02 = new Bai02();
-            bai02.ShowDialog(); 
->>>>>>> 393c1f3e89c448e407f14392256ff243ee99bfaa
             this.Show();
         }
     }

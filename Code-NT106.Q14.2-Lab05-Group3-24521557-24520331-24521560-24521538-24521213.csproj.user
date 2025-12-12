@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Bai01.cs">
+    <Compile Update="Bài 1\Bai01.cs">
       <SubType>Form</SubType>
     </Compile>
-<<<<<<< HEAD
-    <Compile Update="Bai3.cs">
-=======
-    <Compile Update="Bai02.cs">
->>>>>>> 393c1f3e89c448e407f14392256ff243ee99bfaa
+    <Compile Update="Bài 2\Bai02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bài 3\Bai3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="dashboard.cs">
