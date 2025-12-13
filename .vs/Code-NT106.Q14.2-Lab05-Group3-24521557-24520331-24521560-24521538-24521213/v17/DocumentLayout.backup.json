@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Group-12-NT106.Q14\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3563E9E4-4438-4971-B916-9BE79D28B303}|Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213.csproj|d:\\group-12-nt106.q14\\code-nt106.q14.2-lab05-group3-24521557-24520331-24521560-24521538-24521213\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3563E9E4-4438-4971-B916-9BE79D28B303}|Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213.csproj|solutionrelative:dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +35,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dashboard.cs",
+              "DocumentMoniker": "D:\\Group-12-NT106.Q14\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\dashboard.cs",
+              "RelativeDocumentMoniker": "dashboard.cs",
+              "ToolTip": "D:\\Group-12-NT106.Q14\\Code-NT106.Q14.2-Lab05-Group3-24521557-24520331-24521560-24521538-24521213\\dashboard.cs",
+              "RelativeToolTip": "dashboard.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAIA9wCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T03:31:11.045Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -88,6 +88,7 @@
             btnBai04.TabIndex = 12;
             btnBai04.Text = "Bài 04";
             btnBai04.UseVisualStyleBackColor = false;
+            btnBai04.Click += btnBai04_Click;
             // 
             // btnBai03
             // 
