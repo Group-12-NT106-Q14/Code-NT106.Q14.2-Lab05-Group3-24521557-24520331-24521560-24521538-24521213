@@ -32,5 +32,13 @@ namespace Code_NT106.Q14._2_Lab05_Group3_24521557_24520331_24521560_24521538_245
             bai3.ShowDialog();
             this.Show();
         }
+
+        private void btnBai04_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bai04 bai04 = new Bai04();
+            bai04.ShowDialog();
+            this.Show();
+        }
     }
 }
