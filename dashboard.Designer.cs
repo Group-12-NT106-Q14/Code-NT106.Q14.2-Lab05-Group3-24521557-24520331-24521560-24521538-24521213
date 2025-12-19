@@ -62,6 +62,7 @@
             btnBai06.TabIndex = 14;
             btnBai06.Text = "Bài 06";
             btnBai06.UseVisualStyleBackColor = false;
+            btnBai06.Click += btnBai06_Click;
             // 
             // btnBai05
             // 
@@ -75,6 +76,7 @@
             btnBai05.TabIndex = 13;
             btnBai05.Text = "Bài 05";
             btnBai05.UseVisualStyleBackColor = false;
+            btnBai05.Click += btnBai05_Click;
             // 
             // btnBai04
             // 
