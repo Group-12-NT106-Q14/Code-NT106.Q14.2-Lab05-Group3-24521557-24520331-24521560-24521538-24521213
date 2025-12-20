@@ -49,5 +49,10 @@ namespace Code_NT106.Q14._2_Lab05_Group3_24521557_24520331_24521560_24521538_245
                 MessageBox.Show("Lỗi khi gửi email: " + ex.Message);
             }
         }
+
+        private void Bai01_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -22,111 +22,112 @@
 
         private void InitializeComponent()
         {
-            this.btnSend = new System.Windows.Forms.Button();
-            this.lblFrom = new System.Windows.Forms.Label();
-            this.lblTo = new System.Windows.Forms.Label();
-            this.lblSubject = new System.Windows.Forms.Label();
-            this.lblBody = new System.Windows.Forms.Label();
-            this.txtFrom = new System.Windows.Forms.TextBox();
-            this.txtTo = new System.Windows.Forms.TextBox();
-            this.txtSubject = new System.Windows.Forms.TextBox();
-            this.txtBody = new System.Windows.Forms.TextBox();
-            this.SuspendLayout();
+            btnSend = new Button();
+            lblFrom = new Label();
+            lblTo = new Label();
+            lblSubject = new Label();
+            lblBody = new Label();
+            txtFrom = new TextBox();
+            txtTo = new TextBox();
+            txtSubject = new TextBox();
+            txtBody = new TextBox();
+            SuspendLayout();
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(12, 12);
-            this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(75, 60);
-            this.btnSend.TabIndex = 0;
-            this.btnSend.Text = "SEND";
-            this.btnSend.UseVisualStyleBackColor = true;
-            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
+            btnSend.Location = new Point(12, 12);
+            btnSend.Name = "btnSend";
+            btnSend.Size = new Size(75, 60);
+            btnSend.TabIndex = 0;
+            btnSend.Text = "SEND";
+            btnSend.UseVisualStyleBackColor = true;
+            btnSend.Click += btnSend_Click;
             // 
             // lblFrom
             // 
-            this.lblFrom.AutoSize = true;
-            this.lblFrom.Location = new System.Drawing.Point(110, 22);
-            this.lblFrom.Name = "lblFrom";
-            this.lblFrom.Size = new System.Drawing.Size(36, 15);
-            this.lblFrom.TabIndex = 1;
-            this.lblFrom.Text = "From:";
+            lblFrom.AutoSize = true;
+            lblFrom.Location = new Point(110, 22);
+            lblFrom.Name = "lblFrom";
+            lblFrom.Size = new Size(38, 15);
+            lblFrom.TabIndex = 1;
+            lblFrom.Text = "From:";
             // 
             // lblTo
             // 
-            this.lblTo.AutoSize = true;
-            this.lblTo.Location = new System.Drawing.Point(110, 51);
-            this.lblTo.Name = "lblTo";
-            this.lblTo.Size = new System.Drawing.Size(23, 15);
-            this.lblTo.TabIndex = 2;
-            this.lblTo.Text = "To:";
+            lblTo.AutoSize = true;
+            lblTo.Location = new Point(110, 51);
+            lblTo.Name = "lblTo";
+            lblTo.Size = new Size(23, 15);
+            lblTo.TabIndex = 2;
+            lblTo.Text = "To:";
             // 
             // lblSubject
             // 
-            this.lblSubject.AutoSize = true;
-            this.lblSubject.Location = new System.Drawing.Point(110, 90);
-            this.lblSubject.Name = "lblSubject";
-            this.lblSubject.Size = new System.Drawing.Size(50, 15);
-            this.lblSubject.TabIndex = 3;
-            this.lblSubject.Text = "Subject:";
+            lblSubject.AutoSize = true;
+            lblSubject.Location = new Point(110, 90);
+            lblSubject.Name = "lblSubject";
+            lblSubject.Size = new Size(49, 15);
+            lblSubject.TabIndex = 3;
+            lblSubject.Text = "Subject:";
             // 
             // lblBody
             // 
-            this.lblBody.AutoSize = true;
-            this.lblBody.Location = new System.Drawing.Point(110, 120);
-            this.lblBody.Name = "lblBody";
-            this.lblBody.Size = new System.Drawing.Size(36, 15);
-            this.lblBody.TabIndex = 4;
-            this.lblBody.Text = "Body:";
+            lblBody.AutoSize = true;
+            lblBody.Location = new Point(110, 120);
+            lblBody.Name = "lblBody";
+            lblBody.Size = new Size(37, 15);
+            lblBody.TabIndex = 4;
+            lblBody.Text = "Body:";
             // 
             // txtFrom
             // 
-            this.txtFrom.Location = new System.Drawing.Point(170, 19);
-            this.txtFrom.Name = "txtFrom";
-            this.txtFrom.Size = new System.Drawing.Size(450, 23);
-            this.txtFrom.TabIndex = 5;
+            txtFrom.Location = new Point(170, 19);
+            txtFrom.Name = "txtFrom";
+            txtFrom.Size = new Size(450, 23);
+            txtFrom.TabIndex = 5;
             // 
             // txtTo
             // 
-            this.txtTo.Location = new System.Drawing.Point(170, 48);
-            this.txtTo.Name = "txtTo";
-            this.txtTo.Size = new System.Drawing.Size(450, 23);
-            this.txtTo.TabIndex = 6;
+            txtTo.Location = new Point(170, 48);
+            txtTo.Name = "txtTo";
+            txtTo.Size = new Size(450, 23);
+            txtTo.TabIndex = 6;
             // 
             // txtSubject
             // 
-            this.txtSubject.Location = new System.Drawing.Point(170, 87);
-            this.txtSubject.Name = "txtSubject";
-            this.txtSubject.Size = new System.Drawing.Size(450, 23);
-            this.txtSubject.TabIndex = 7;
+            txtSubject.Location = new Point(170, 87);
+            txtSubject.Name = "txtSubject";
+            txtSubject.Size = new Size(450, 23);
+            txtSubject.TabIndex = 7;
             // 
             // txtBody
             // 
-            this.txtBody.Location = new System.Drawing.Point(170, 118);
-            this.txtBody.Multiline = true;
-            this.txtBody.Name = "txtBody";
-            this.txtBody.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtBody.Size = new System.Drawing.Size(450, 230);
-            this.txtBody.TabIndex = 8;
+            txtBody.Location = new Point(170, 118);
+            txtBody.Multiline = true;
+            txtBody.Name = "txtBody";
+            txtBody.ScrollBars = ScrollBars.Vertical;
+            txtBody.Size = new Size(450, 230);
+            txtBody.TabIndex = 8;
             // 
-            // FormBai1
+            // Bai01
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(650, 370);
-            this.Controls.Add(this.txtBody);
-            this.Controls.Add(this.txtSubject);
-            this.Controls.Add(this.txtTo);
-            this.Controls.Add(this.txtFrom);
-            this.Controls.Add(this.lblBody);
-            this.Controls.Add(this.lblSubject);
-            this.Controls.Add(this.lblTo);
-            this.Controls.Add(this.lblFrom);
-            this.Controls.Add(this.btnSend);
-            this.Name = "FormBai1";
-            this.Text = "Bài 1 - Gửi Email";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(650, 370);
+            Controls.Add(txtBody);
+            Controls.Add(txtSubject);
+            Controls.Add(txtTo);
+            Controls.Add(txtFrom);
+            Controls.Add(lblBody);
+            Controls.Add(lblSubject);
+            Controls.Add(lblTo);
+            Controls.Add(lblFrom);
+            Controls.Add(btnSend);
+            Name = "Bai01";
+            Text = "Bài 1 - Gửi Email";
+            Load += Bai01_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
     }
 }

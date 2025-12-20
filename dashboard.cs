@@ -51,7 +51,10 @@ namespace Code_NT106.Q14._2_Lab05_Group3_24521557_24520331_24521560_24521538_245
 
         private void btnBai06_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Bai06 bai6 = new Bai06();
+            bai6.ShowDialog();
+            this.Show();
         }
     }
 }

@@ -19,6 +19,9 @@
     <Compile Update="Bài 4\BookingForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Bài 6\Bai06.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
