@@ -75,6 +75,7 @@
             textBox2.ReadOnly = true;
             textBox2.Size = new Size(478, 104);
             textBox2.TabIndex = 1;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // lbDangNhap
             // 
@@ -253,6 +254,7 @@
             btnRefesh.TabIndex = 21;
             btnRefesh.Text = "Refesh";
             btnRefesh.UseVisualStyleBackColor = true;
+            btnRefesh.Click += btnRefesh_Click;
             // 
             // btnLogout
             // 
