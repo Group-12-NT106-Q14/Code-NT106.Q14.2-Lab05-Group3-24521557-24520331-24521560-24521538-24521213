@@ -245,6 +245,7 @@
             btnSend.TabIndex = 20;
             btnSend.Text = "Gui mail";
             btnSend.UseVisualStyleBackColor = true;
+            btnSend.Click += btnSend_Click;
             // 
             // btnRefesh
             // 
@@ -264,6 +265,7 @@
             btnLogout.TabIndex = 22;
             btnLogout.Text = "Dang Xuat";
             btnLogout.UseVisualStyleBackColor = true;
+            btnLogout.Click += btnLogout_Click;
             // 
             // lstEmail
             // 
@@ -280,6 +282,7 @@
             lstEmail.UseCompatibleStateImageBehavior = false;
             lstEmail.View = View.Details;
             lstEmail.SelectedIndexChanged += listView1_SelectedIndexChanged;
+            lstEmail.DoubleClick += lstEmail_DoubleClick;
             // 
             // STT
             // 
